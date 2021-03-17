@@ -1,17 +1,28 @@
 # introScreenFlutter
 
-A new Flutter project.
+1. Depend on it
+Add this to your package's pubspec.yaml file:
 
-## Getting Started
+```
+dependencies:
+  introScreenFlutter:
+    git: 
+      url: https://github.com/GabLeal/introductionScreenFlutter.git
+```
 
-This project is a starting point for a Flutter application.
+2. Install it
+You can install packages from the command line:
 
-A few resources to get you started if this is your first Flutter project:
+with Flutter:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```
+flutter pub get
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# introductionScreenFlutter
+3. Import it
+Now in your Dart code, you can use:
+
+```
+import 'package:introScreenFlutter/new_page_model.dart';
+import 'package:introScreenFlutter/onboarding_screen.dart';
+```
